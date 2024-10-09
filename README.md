@@ -3,6 +3,7 @@
 This repository demonstrates an end-to-end data pipeline that covers the data engineering lifecycle. The pipeline extracts data from a MySQL database hosted on Amazon RDS, transforms it using AWS Glue, and stores it in Amazon S3. The data is then queried via Amazon Athena and visualized using Jupyter Lab. Infrastructure management is handled by Terraform, following Infrastructure as Code (IaC) principles.
 
 ## Pipeline Architecture
+![Pipeline Architecture](./images/ETL.drawio)
 
 The pipeline consists of the following stages:
 
