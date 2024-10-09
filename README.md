@@ -14,7 +14,8 @@ The pipeline consists of the following stages:
    - **Extract:** Data is retrieved from the RDS MySQL database.
    - **Transform:** Data is transformed into a star schema for easier analysis.
    - **Load:** Transformed data is stored in Amazon S3 in Parquet format.
-   
+![Star schema](./images/schema_after_ETL.png)
+
 3. **Serving Layer (Amazon Athena):**
    - Data stored in S3 is queried using Amazon Athena.
    
