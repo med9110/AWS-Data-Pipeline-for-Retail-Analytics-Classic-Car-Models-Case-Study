@@ -34,9 +34,3 @@ The pipeline consists of the following stages:
 - **Jupyter Lab** for visualization.
 - **Terraform** for infrastructure management.
 
-1. Clone this repository.
-2. Follow the instructions in the provided Jupyter notebook to set up and run the pipeline.
-3. Use Terraform to manage infrastructure and deploy resources.
-
-This project provides a hands-on example of the data engineering lifecycle using AWS services.
-
